@@ -21,7 +21,7 @@ sudo chown -R gda:gda /opt/nodejs
 #### Set Environment :
 `vim ~/.bash_profile`
 ```
-NodeJS
+# NodeJS
 export NODEJS_HOME=/opt/nodejs/node-v6.11.0
 export PATH=$NODEJS_HOME/bin:$PATH
 ```
