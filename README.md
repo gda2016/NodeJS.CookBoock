@@ -21,9 +21,9 @@ sudo chown -R gda:gda /opt/nodejs
 #### Set Environment :
 `vim ~/.bash_profile`
 
-># NodeJS
-export NODEJS_HOME=/opt/nodejs/node-v6.11.0
-export PATH=$NODEJS_HOME/bin:$PATH
+> NodeJS
+> export NODEJS_HOME=/opt/nodejs/node-v6.11.0
+> export PATH=$NODEJS_HOME/bin:$PATH
 `source ~/.bash_profile` __or reboot__
 
 #### Testing :
@@ -37,10 +37,9 @@ npm config get prefix
 vim ~/.npmrc
 ```
 #### Source :
-## [Installation](https://github.com/nodejs/help/wiki/Installation)
-## [How to install nodejs and npm using binary file .tar.xz](https://www.youtube.com/watch?v=gQIv4GgsWf4)
-## [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
-[How do I completely uninstall Node.js ](https://stackoverflow.com/questions/11177954/how-do-i-completely-uninstall-node-js-and-reinstall-from-beginning-mac-os-x)
-=========================================
+> [Installation](https://github.com/nodejs/help/wiki/Installation)
+> [How to install nodejs and npm using binary file .tar.xz](https://www.youtube.com/watch?v=gQIv4GgsWf4)
+> [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+> [How do I completely uninstall Node.js ](https://stackoverflow.com/questions/11177954/how-do-i-completely-uninstall-node-js-and-reinstall-from-beginning-mac-os-x)
+
 ! Important npm variable located in ~/.npmrc
-=====================================
